@@ -1,0 +1,17 @@
+Data #7 Patenting 
+ptnt.raw
+
+The file contains data on 642 manufacturing firms with patents and R & D spending from 1972 to 1979. There are 5136 rows (642 firms times 8 years) and 6 columns. The data are arranged by year; rows 1-8 consist of observations for firm 1, rows 9-16 for firm 2 and so on.  Definition of variables is given as follows.
+
+Cusip scientific logcapital  sumpat logrd patents year
+
+1. CUSIP - Compustat's identifying number for the firm (Committee on Uniform Security  
+                    Identification Procedure number.
+2. SCIENTIFIC - Dummy equal to one for firms in the scientific sector.
+3. LOG-CAPITAL - The logarithm of  the book value of capital in 1972
+4. SUMPAT -  The sum of patents applied for between 1972-1979
+5. LOG-RD  - The logarithm of R and D spending during the year (in 1972 dollars)
+6. PATENTS - The number of patents applied for during the year that were eventually  
+                      granted.
+7. YEAR  - Year patent applied for 
+ 
